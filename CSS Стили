@@ -1,0 +1,303 @@
+@import url("normalize.css");
+
+
+.head{
+    /*Что бы шапка держалась при скролле лучше чем fixed*/
+    position:sticky;
+    padding-bottom:20px;
+    background-color:#007765;
+    min-width:1200px;
+    max-width:1200px;
+    top:0;
+
+    
+
+}
+
+.logo{
+    padding-right:75%;
+    padding-left:230px;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.shapka{
+    display: flex;
+    font-size: 20px;
+    color:white;
+    padding-left: 750px;
+    margin-top: -40px;
+    padding-top: 7px;
+
+
+}
+
+.fon_1{
+    background:url('fon_1.png');
+    padding:109px;
+   text-align:center;
+   font-size:72px;
+   color:white;
+}
+
+.the_problem{
+    text-align:center;
+    color:#007765;
+    font-size:64px;
+}
+
+.problem_txt{
+    padding-left:5%;
+    color:black;
+    font-size:32px;
+    float:left
+}
+
+
+
+.fon_2{
+    clear:both;
+    background:url('fon_2.png');
+    padding:70px;
+    font-size:48px;
+    color:white;
+    text-align:center;
+}
+
+.piper_coin{
+    text-align:center;
+    font-size:65px;
+    color:#007765;
+}
+
+.logo_2{
+    padding-left: 70px;
+}
+
+.piper_coin_txt{
+    padding-right:150px;
+    padding-top: 0px;
+    font-size:32px;
+    float: right;
+    
+}
+
+.now_there_txt{
+    font-size:32px;
+    padding-top:30px;
+    padding-left:70px;
+    float:left;
+    margin-bottom:50px;
+}
+
+.team_h1{
+    font-size:65px;
+    color:#007765;
+    text-align:center;
+    padding-top:30px;
+
+
+}
+
+.team{
+    
+    clear:both;
+    background: #EEEEEE;
+    padding-bottom:650px;
+
+
+}
+
+
+.team_all{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rich{
+    padding-left:230px;
+    padding-bottom: 0px;
+
+}
+
+.rich_name{
+    margin: 0px;
+    clear: both;
+    padding-left:210px;
+    font-size:20px;
+    color:#007765;   
+}
+
+.rich_txt{
+    margin: 0px;
+    clear: both;
+    font-size:18px;
+    padding-left:235px; 
+}
+
+.din{
+    clear:both;
+    margin:0px;
+    padding-left:180px;
+}
+
+
+.din_name{
+    margin: 0px;
+    padding-left:160px;
+    font-size:20px;
+    color:#007765;
+}
+
+.din_txt{
+    margin: 0px;
+    clear: both;
+    font-size:18px;
+    padding-left:180px; 
+
+}
+
+.gil{
+    padding-left:180px;
+  
+}
+
+.gil_name{
+    margin: 0px;
+    padding-left:170px;
+    font-size:20px;
+    color:#007765;
+    display: inline;
+}
+
+.gil_txt{
+    margin: 0px;
+    clear: both;
+    font-size:18px;
+    padding-left:150px; 
+}
+
+.jar{
+    padding-top: 100px;
+    padding-left:230px;
+}
+
+
+
+.mon{
+    padding-top: 100px;
+    padding-left:180px;
+}
+
+.big{
+    padding-top: 100px;
+    padding-left: 180px;
+}
+
+.jar_name{
+    margin: 0px;
+    clear:both;
+    padding-left: 247px;
+    font-size:20px;
+    color:#007765;   
+}
+
+
+
+.mon_name{
+    margin:0px;
+    clear:both;
+    padding-left: 200px;
+    font-size:20px;
+    color:#007765;   
+
+}
+
+.big_name{
+    margin:0;
+    clear:both;
+    padding-left: 200px;
+    font-size:20px;
+    color:#007765;   
+
+}
+
+.jar_txt{
+    margin:0px;
+    clear: both;
+    font-size:18px;
+    padding-left:210px; 
+}
+
+.mon_txt{
+    margin:0px;
+    clear:both;
+    font-size:18px;
+    padding-left:140px;
+}
+
+.big_txt{
+    margin:0px;
+    clear:both;
+    font-size: 18px;
+    padding-left: 170px;
+
+}
+
+.foot{
+    margin-top:500px;
+    background:#333333;
+    margin-bottom: -700px;
+    padding-bottom: 140px;
+    
+}
+
+.foot_txt{
+    text-align: center;
+    color:white;
+    font-size:18px;
+    padding-top: 30px;
+    margin-bottom: -300px;
+}
+
+.General{
+
+    /* Код ниже для того чтобы не было проблем при масштабировании*/
+    /*На уменьшение масштаба*/
+    max-width:1200px;
+    /* На увеличение масштаба*/
+    min-width:1200px;
+    /* Что бы после уменьшения масштаба, страница была по центру*/
+    margin:auto;
+
+}
+    /* Нет смысла из-за размеров*/
+    /* width:1219px; 
+    margin-left:55px;
+    margin-right:55px; */
+
+/* Нужно чтобы якорная ссылка работала нормально. 
+Тект на который переходишь, не закрывался шапкой*/
+#the_problem_link{
+    padding-top:70px;
+    margin-top:-70px;
+    -webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+#piper_coin_link{
+    padding-top:70px;
+    margin-top:-70px;
+    -webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+
+
+#the_team_link{
+    padding-top:70px;
+    margin-top:-70px;
+    -webkit-background-clip: content-box;
+	background-clip: content-box;
+
+}
